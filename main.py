@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-data = {"name":"shopping cart",
+data = {"name":"Sapta shopping cart",
         "columns":["prod_name","price","num_items"],
         "items":{}}
 
